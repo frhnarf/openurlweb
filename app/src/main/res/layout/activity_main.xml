@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KHALIFAH KE 3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text="Ketika para sahabat nabi Muhammad lain seperti Abu Wail bertanya kepada Abdurrahman bin Auf, “bagaimana kamu bisa membaiat (memilih) Usman bin Affan, padahal ada sahabat Nabi yang mulia seperti Ali bin Abi Thalib di sana?Pertanyaan tersebut dijawab oleh Abdurrahman. Sebagaimana diterangkan dalam Musnad Ahmad diriwayatkan bahwa Abdurrahman bin Auf mendatangi Ali bin Abi Thalib menanyakan tentang siapa yang layak menjadi khalifah. Ali bin Abi Thalib menjawab, “Usman”. Begitupun ketika ditanya kepada para sahabat-sahabat yang lain."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="10sp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:text="Sahabat Nabi"
+        android:textSize="24sp"
+        android:gravity="center|bottom"
+        android:textStyle="bold" />
+</LinearLayout>
